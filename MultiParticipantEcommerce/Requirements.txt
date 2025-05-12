@@ -1,0 +1,12 @@
+ numpy
+ pandas
+ matplotlib
+ sklearn==0.0
+ seaborn
+ Django
+
+ # python 3.10.0
+
+
+
+ 
