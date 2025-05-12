@@ -1,58 +1,68 @@
 ﻿# AN-INTELLIGENT-FRAUD-DETECTION-FRAMEWORK-FOR-MULTI-PARTICIPANT-E-COMMERCE-TRANSACTIONS
-MultiParticipant Ecommerce
-This project is a Multi-Participant Ecommerce System built using .NET technologies. It allows multiple vendors and customers to interact in an online marketplace environment, enabling functionalities such as product listing, ordering, user authentication, and role-based access.
+🛒 Multi-Participant Ecommerce System
+This project is a Multi-Participant Ecommerce System developed using .NET technologies. It enables multiple sellers and customers to engage in buying and selling through a shared platform.
 
-Features
-User Registration and Login (Admin, Seller, Customer)
+✨ Features
+👥 User Roles: Admin, Seller, Customer
 
-Product management by Sellers
+🛍️ Product Management by Sellers
 
-Product browsing and ordering by Customers
+🧾 Order Placement and Tracking for Customers
 
-Order tracking and management
+🔐 Secure Login & Registration
 
-Admin control over platform operations
+🛠️ Admin Dashboard for Managing Users & Products
 
-Prerequisites
-Before running the project, ensure you have the following installed:
+✅ Prerequisites
+Make sure you have the following installed before running the project:
 
-.NET Framework or .NET SDK (based on project type)
+💻 .NET SDK / .NET Framework
 
-Visual Studio with Windows Forms or ASP.NET support
+🧰 Visual Studio
 
-SQL Server or SQL Server Express
+🗄️ SQL Server or SQL Server Express
 
-WinRAR or 7-Zip to extract .rar file
+📦 WinRAR or 7-Zip to extract .rar file
 
-How to Run the Project
-Step 1: Extract the Project
-Extract the MultiParticipantEcommerce.rar file to your desired location using WinRAR or 7-Zip.
+🚀 How to Run the Project
+📂 Step 1: Extract the Project
+Extract MultiParticipantEcommerce.rar using WinRAR or 7-Zip.
 
-Step 2: Open the Project
+🧭 Step 2: Open in Visual Studio
 Launch Visual Studio.
 
-Click on "Open a Project or Solution".
+Click "Open a project or solution".
 
-Navigate to the extracted folder and select the .sln (solution) file.
+Navigate to the extracted folder and select the .sln file.
 
-Step 3: Configure the Database
+🗄️ Step 3: Set Up the Database
 Open SQL Server Management Studio (SSMS).
 
-Locate the .sql file (usually provided in the project or DB folder).
+Locate and run the provided .sql file to create the database.
 
-Execute the script to create the database.
+Update the connection string in App.config or Web.config if needed.
 
-In the project, update the connection string in App.config or Web.config to match your SQL Server settings.
+🧪 Step 4: Build and Run
+Press Ctrl + Shift + B to Build.
 
-Step 4: Build and Run
-Build the solution using Ctrl + Shift + B.
+Press F5 or click Start to Run the project.
 
-Run the project by pressing F5 or clicking the Start button.
+🔐 Default Login Credentials
+Check the documentation or database for predefined credentials like:
 
-Login Credentials
-Note: Default admin, seller, or customer login credentials (if any) will be in the database or included in the documentation inside the project.
+Admin: admin@example.com / admin123
 
-Troubleshooting
-If you encounter missing references, restore NuGet packages via Tools > NuGet Package Manager > Manage NuGet Packages for Solution.
+Seller: seller@example.com / seller123
 
-Ensure your SQL Server instance is running and the connection string is correctly configured.
+Customer: customer@example.com / customer123
+
+(Actual credentials may vary.)
+
+🛠️ Troubleshooting
+❌ Missing references? Restore packages via NuGet.
+
+🔌 Can't connect to DB? Double-check the connection string and SQL Server status.
+
+📎 Author & Info
+Project by Sai Kumar Seepana
+📘 For help, contact me on mail : saikumarseepana01@gmail.com.
